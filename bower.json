@@ -1,0 +1,17 @@
+{
+  "name": "three60",
+  "main": "three60.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sebbean/three60",
+  "authors": [
+    "Sebastian Bean <sebastian@ginlanemedia.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
