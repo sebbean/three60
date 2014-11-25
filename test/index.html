@@ -10,13 +10,13 @@
 			var hat;
 			document.addEventListener("DOMContentLoaded", function() {
 				hat = new three60();
-				hat.init("hat", "./hat/frame-{i}.jpg", 72);
+				hat.init(document.querySelector('#hat'), "./hat/frame-{i}.jpg", 72);
 			}, false);
 		</script>
 	</head>
 	<body>
 		<div id="hat">
-			<div class="loading"></div>
+			<!-- <div class="loading"></div> -->
 		</div>
 	</body>
 </html>
