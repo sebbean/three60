@@ -1,7 +1,7 @@
 {
   "name": "three60",
   "main": "three60.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/sebbean/three60",
   "authors": [
     "Sebastian Bean <sebastian@ginlanemedia.com>"
