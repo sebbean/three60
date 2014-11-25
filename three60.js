@@ -55,8 +55,8 @@ function three60() {
 
 	this.loadFrames = function() {
 		for (var i = 1; i <= self.totalFrames; i++) {
-			self.imageObjects [i] = new Image();
-			self.imageObjects[i].src = self.fileName.replace('{i}', zeroFill(i));
+			self.imageObjects[i] = new Image();
+			self.imageObjects[i].src = self.fileName.replace('{i}',i);
 			self.imageObjects[i].onload = function() {
 				self.framesLoaded++;
 				if (self.framesLoaded == self.totalFrames) self.loadComplete();
